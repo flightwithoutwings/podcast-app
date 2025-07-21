@@ -1,3 +1,9 @@
+import { PodcastPlayer } from '@/components/PodcastPlayer';
+
 export default function Home() {
-  return <></>;
+  return (
+    <main>
+      <PodcastPlayer />
+    </main>
+  );
 }
