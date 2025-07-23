@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: 'Podcast Progress',
   description: 'An app to play podcasts and save your progress.',
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({
