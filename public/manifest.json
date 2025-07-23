@@ -1,21 +1,21 @@
 {
   "name": "Podcast Progress",
-  "short_name": "Podcasts",
+  "short_name": "PodProgress",
   "description": "An app to play podcasts and save your progress.",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#EEEEEE",
-  "theme_color": "#3F51B5",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icon-512.png",
+      "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EAEAEA",
+  "theme_color": "#F26B6B"
 }
