@@ -11,8 +11,6 @@ const repoName = process.env.GITHUB_REPOSITORY ? process.env.GITHUB_REPOSITORY.s
 
 const nextConfig = {
   output: 'export',
-  basePath: repoName ? `/${repoName}` : '',
-  assetPrefix: repoName ? `/${repoName}/` : '',
   typescript: {
     ignoreBuildErrors: true,
   },
